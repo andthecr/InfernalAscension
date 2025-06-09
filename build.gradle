@@ -1,0 +1,36 @@
+plugins {
+    id 'fabric-loom' version '0.12-SNAPSHOT'
+    id 'maven-publish'
+}
+
+group = 'com.andthecrgpt'
+version = '1.0.0'
+
+repositories {
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+    maven {
+        name = "Ladysnake Libs"
+        url = "https://maven.ladysnake.org/releases"
+    }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.19.2"
+    mappings "net.fabricmc:yarn:1.19.2+build.10:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.14.10"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.55.3+1.19.2"
+    modImplementation "vazkii.patchouli:Patchouli:1.19.2-77-FABRIC"
+}
+
+loom {
+    splitEnvironmentSourceSets()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "infernalascension",
+  "version": "1.0.0",
+  "name": "Infernal Ascension",
+  "description": "Adds demonic transformation rituals.",
+  "authors": [
+    "andthecrgpt"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.andthecrgpt.infernalascension.InfernalAscension"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.19.2",
+    "fabric": "*",
+    "patchouli": "*"
+  }
+}

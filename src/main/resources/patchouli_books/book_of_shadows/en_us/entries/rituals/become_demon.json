@@ -1,0 +1,27 @@
+{
+  "name": "Trasformazione Demoniaca",
+  "category": "infernalascension:rituals",
+  "icon": "minecraft:nether_star",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Introduzione",
+      "text": "Questo rituale ti trasforma in un Demone. Richiede cerchi infernali e potere notturno. Il prezzo: la tua umanit\u00e0."
+    },
+    {
+      "type": "ritual",
+      "recipe": "infernalascension:become_demon",
+      "text": "Piazza i materiali nel cerchio e clicca sul glifo centrale per iniziare la trasformazione."
+    },
+    {
+      "type": "text",
+      "title": "Ingredienti",
+      "text": "- Nether Star\n- Wither Rose\n- Pozione di Danno II\n- Teschio Wither Skeleton"
+    },
+    {
+      "type": "text",
+      "title": "Effetti",
+      "text": "\u2714 Forza notturna\n\u2714 Immunit\u00e0 al fuoco\n\u2714 Salto potenziato\n\u2716 Maledizione permanente"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "function": "infernalascension:become_demon",
+  "circle": {
+    "inner": "infernalascension:infernal_chalk",
+    "outer": "infernalascension:infernal_chalk"
+  },
+  "duration": 200,
+  "power": 250,
+  "inputs": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ]
+}
